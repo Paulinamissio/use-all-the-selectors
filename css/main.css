@@ -5,11 +5,18 @@ html {
   font-size: 1.5rem;
 }
 
+body {
+background-color: #fdf6e3;
+
+}
  footer {
   font-size: 1.5rem;
 }
 
  a {
+  font-family: sans-serif;
+}
+ul {
   font-family: sans-serif;
 }
 
@@ -19,6 +26,7 @@ html {
 
 h1{
 text-transform: uppercase;
+color: black;
 }
 
 main {
@@ -57,4 +65,24 @@ background-color: #586e75;
 }
 .types li:nth-child(3){
   background-color: #d04b16;
+}
+.types li:nth-child(4){
+  background-color: #657ba3;
+}
+.types li:nth-child(5){
+background-color: #586e75;
+}
+.types li:nth-child(6){
+  background-color: #d04b16;
+}
+.wrapper {
+  background-color: #eee8d5;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.dfn {
+  color: #fff;
 }
